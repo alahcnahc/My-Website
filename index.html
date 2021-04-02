@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .logo {
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        
+        .container {
+            top: 18%;
+            left: 60%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            width: max-content;
+        }
+        
+        ul li {
+            display: inline;
+            text-align: center;
+        }
+        
+        a {
+            height: 0%;
+            display: inline-block;
+            padding: auto;
+            margin: 32px 0;
+            text-decoration: none;
+            color: black;
+            margin-left: 50px;
+        }
+        
+        hr {
+            height: 50px;
+            width: 22%;
+            margin: -70px 0;
+            background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
+            border: none;
+            border-radius: 50px;
+            transition: .5s ease-in-out;
+        }
+        
+        .two:hover~hr {
+            margin-left: 18%;
+        }
+        
+        .three:hover~hr {
+            margin-left: 38%;
+        }
+        
+        .four:hover~hr {
+            margin-left: 59%;
+        }
+        
+        .five:hover~hr {
+            margin-left: 81%;
+        }
+        
+        #fruit {
+            font-size: larger;
+            font-weight: bold;
+        }
+        
+        #fruit>ul>li {
+            display: block;
+            text-align: left;
+        }
+        
+        .ek {
+            background: linear-gradient(240deg, blue, cyan);
+            width: 23%;
+            height: 400px;
+            float: left;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        
+        #six {
+            text-align: center;
+        }
+        
+        .do {
+            background: linear-gradient(45deg, rgb(150, 235, 15), orange);
+            width: 23%;
+            height: 400px;
+            float: left;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        
+        #seven {
+            text-align: center;
+        }
+        
+        .teen {
+            background: linear-gradient(60deg, green, rgb(73, 255, 73));
+            width: 23%;
+            height: 400px;
+            float: left;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        
+        #eight {
+            text-align: center;
+        }
+        
+        .chaar {
+            background: linear-gradient(120deg, purple, red);
+            width: 23%;
+            height: 400px;
+            float: left;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        
+        #nine {
+            text-align: center;
+        }
+        
+        #cont {
+            margin-top: auto;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <marquee behavior="" direction="right" id="marq">
+        <h1><b>My Website</b></h1>
+    </marquee>
+    <div class="div1">
+        <img src="gandhi-logo.jpg" alt="" class="logo" width="100px" height="100px">
+        <div class="container">
+            <ul>
+                <li class="one"><a href="">Home</a></li>
+                <li class="two"><a href="">About</a></li>
+                <li class="three"><a href="">Services</a></li>
+                <li class="four"><a href="">Contact</a></li>
+                <li class="five"><a href="">Comment</a></li>
+                <hr />
+            </ul>
+        </div>
+    </div>
+    <div class="img">
+        <img src="human.jpg" alt="" width="100%" height="600px">
+    </div>
+    <div id="fruit">
+        <p>
+            <h2>My Favorite Fruits:</h2>
+        </p>
+        <ol>
+            <li>Mango</li>
+            <li>Grapes</li>
+            <li>Banana</li>
+            <li>Dragon Fruit</li>
+            <li>Apple</li>
+        </ol>
+
+        <p>
+            <h2>My Friends:</h2>
+        </p>
+        <ul>
+            <li>Tab</li>
+            <li>Shivnath</li>
+            <li>Chanchala</li>
+            <li>Sona</li>
+            <li>Sanjana</li>
+        </ul>
+
+    </div>
+    <container id="cont">
+        <div class="ek">
+            <h3 id="six">Types of Forest:</h3>
+            <p>
+                <li>Tidal Forest</li>
+                <li>Thorny Forest</li>
+                <li>Evergreen Forest</li>
+                <li>Deciduos Forest</li>
+                <li>Moist Decicuos Forest</li>
+            </p>
+        </div>
+        <div class="do">
+            <h3 id="seven">Types of Sports</h3>
+            <p>
+                <li>Kabbadi</li>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Kho Kho</li>
+                <li>Hockey</li>
+            </p>
+        </div>
+        <div class="teen">
+            <h3 id="eight">Types of Currency</h3>
+            <p>
+                <li>Rs. 1 coin</li>
+                <li>Rs. 2 coin</li>
+                <li>Rs. 5 coin</li>
+                <li>Rs. 10 coin</li>
+                <li>Rest Are Notes</li>
+            </p>
+        </div>
+        <div class="chaar">
+            <h3 id="nine">Languages</h3>
+            <p>
+                <li>Hindi</li>
+                <li>English</li>
+                <li>Marathi</li>
+                <li>Punjabi</li>
+                <li>Gujrati</li>
+            </p>
+        </div>
+    </container>
+</body>
+
+</html>
